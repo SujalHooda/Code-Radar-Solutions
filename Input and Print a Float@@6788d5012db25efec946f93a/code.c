@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    float weight;
+    float number;
     printf("You entered:");
-    scanf("%f",&weight);
+    scanf("%f",&number);
     return 0;
 }
