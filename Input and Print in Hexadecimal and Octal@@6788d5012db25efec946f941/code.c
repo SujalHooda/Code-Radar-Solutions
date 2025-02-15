@@ -2,8 +2,8 @@
 int main()
 {
     int num;
-    scanf("%d",&num);
-    printf("Hexadecimal: %X\n ",num);
-    printf("Octal: %o\n",num);
+    scanf("%d", &num);
+    printf("Hexadecimal: %X\n", num);  // Removed the extra space after \n
+    printf("Octal: %o\n", num);
     return 0;
 }
