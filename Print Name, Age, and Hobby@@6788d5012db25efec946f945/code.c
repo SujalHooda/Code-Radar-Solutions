@@ -4,7 +4,7 @@ int main(){
     int a;
     char str2[100];
     scanf("%s",&str1);
-    printf("Name: %s\n",str);
+    printf("Name: %s\n",str1);
     scanf("%d",&a);
     printf("Age: %d\n",a);
     scanf("%s",&str2);
