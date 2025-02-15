@@ -7,5 +7,5 @@ int main(){
     area = pie*radius*radius;
     printf("Area: %.2f", area);
 
-    result 0;
+    return 0;
 }
