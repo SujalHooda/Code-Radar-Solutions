@@ -2,7 +2,7 @@
 int main(){
     int num1,num2,result;
     char op;
-    scanf("%d%d%d",&num1,&num2,&result);
+    scanf("%d%d",&num1,&num2,);
     scanf(" %c",&op);
     switch(op){
         case '+':
@@ -26,7 +26,7 @@ int main(){
         break;
 
         default:
-            printf("Error");
+            printf("Error\n");
     }
     return 0;
 }
