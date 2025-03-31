@@ -5,7 +5,12 @@ int main(){
 
     for(int i=1;i<=n;i++){
         for(int j=1;j<=i;j++){
-            printf("%d ",(j%2));
+            if(i%2==1){
+                printf("%d ",(j%2));
+            }
+            else{
+                printf("%d ",(j+1)%2);
+            }
         }
         printf("\n");
     }
