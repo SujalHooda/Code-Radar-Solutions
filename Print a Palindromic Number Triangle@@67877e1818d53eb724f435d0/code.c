@@ -13,7 +13,7 @@ int main() {
 
         // Print numbers in increasing order
         for (int j = 1; j <= i; j++) {
-            printf("%d ", j);
+            printf("%d", j);
         }
 
         // Print numbers in decreasing order
