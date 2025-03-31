@@ -2,7 +2,6 @@
 
 int main() {
     int n;
-    printf("Enter the number of rows: ");
     scanf("%d", &n);
 
     // Loop to print each row
