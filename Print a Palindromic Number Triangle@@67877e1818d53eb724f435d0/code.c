@@ -18,7 +18,7 @@ int main() {
 
         // Print numbers in decreasing order
         for (int j = i - 1; j >= 1; j--) {
-            printf("%d ", j);
+            printf("%d", j);
         }
 
         // Move to the next line
